@@ -33,7 +33,6 @@ body {
     padding: 2rem;
     height: 80%;
     font-family: 'Poppins', sans-serif;
-    /* font-family: 'Acme', sans-serif; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,7 +42,6 @@ body {
     color: rgb(142, 97, 97);
     border-left: 10px solid #630000;
     border-radius: 10px;
-
 }
 
 .btn{
@@ -109,7 +107,6 @@ body {
 #display {
     position: absolute;
     z-index: 5;
-
 }
 
 @keyframes slowAppearance {
