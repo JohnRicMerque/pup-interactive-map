@@ -17,7 +17,7 @@ body {
     width: 100vw;
     height: 100vh;
     animation: slowAppearance 2s; 
-    background-image: url(./images/pup3d3.png);
+    background-image: url(./images/pup3d.png);
     background-position: center;
     object-position: center;
     background-repeat: no-repeat;
@@ -25,7 +25,8 @@ body {
 
 .preface-description {
     padding: 2rem;
-    width: 520px;
+    width: 35%;
+    height: 100vh;
     padding: 4rem 3rem;
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -33,9 +34,10 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 50%;  
+    left: 0%;
+    /* top: 50%;  
     left: 50%; 
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
     gap: 2rem;
     backdrop-filter: blur(8px) saturate(115%);
     -webkit-backdrop-filter: blur(8px) saturate(115%);
@@ -47,9 +49,9 @@ body {
 .btn{
     font-family: 'Acme', sans-serif;
     font-weight: 182;
-    font-size: 1rem;
+    font-size: 1.2rem;
     border-radius: 40px;
-    padding: 7px 30px;
+    padding: 10px 32px;
     border: solid #7e0e09 1px;
     box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
     transition : 0.5s;
@@ -64,7 +66,7 @@ body {
 
 .btn:hover{
     transition : 0.5s;
-    padding: 9px 35px;
+    padding: 12px 37px;
     transform : translateY(-3px);
     background-color: #630000;
 }
@@ -75,7 +77,7 @@ body {
 }
 
 .icon {
-    margin-right: 2px;
+    margin-right: 5px;
 }
 
 .title {
@@ -84,7 +86,7 @@ body {
 
 .title :nth-child(1) {
     font-family: 'Acme', sans-serif;
-    font-size: 2.7rem;
+    font-size: 2.6rem;
     color: #880000;
 }
 

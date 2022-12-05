@@ -10,4 +10,8 @@ JavaScript especially eventListeners and calling functions when events are trigg
 
 ## Live Site
 
-Vercel: [https://pup-interactive-map.vercel.app/] (https://pup-interactive-map.vercel.app/)
+Vercel: [https://pup-interactive-map.vercel.app/]
+
+## Reference 
+
+Credits for Team MiXQUAD for the preface image used : ARANJUEZ | BEJERANO | BOCAR | ESPIRITU
