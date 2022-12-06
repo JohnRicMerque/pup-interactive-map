@@ -8,6 +8,7 @@
 
 body {
     overflow-x: hidden;
+    background-color: #c0cdde;
 }
 
 /* PREFACE */
@@ -25,7 +26,7 @@ body {
 
 .preface-description {
     padding: 2rem;
-    width: 35%;
+    width: 34%;
     height: 100vh;
     padding: 4rem 3rem;
     font-family: 'Poppins', sans-serif;
@@ -41,6 +42,12 @@ body {
     background-color: rgba(255, 255, 255, 0.67);
     border-radius: 12px;
     border: 1px solid rgba(209, 213, 219, 0.3);
+    transition: 0.35s ease-in-out;
+}
+
+.preface-description:hover {
+    width: 37%;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .btn{
@@ -63,7 +70,7 @@ body {
 
 .btn:hover{
     transition : 0.5s;
-    padding: 12px 37px;
+    padding: 0.75rem 2.3rem;
     transform : translateY(-3px);
     background-color: #630000;
 }
@@ -74,7 +81,7 @@ body {
 }
 
 .icon {
-    margin-right: 5px;
+    margin-right: 0.3rem;
 }
 
 .title {
@@ -117,7 +124,7 @@ body {
 }
 
 .map {
-    border-radius: 10px;
+    border-radius: 0.625rem;
     filter: grayscale(0.3);
     background-repeat: no-repeat;
 }
@@ -166,3 +173,55 @@ body {
 .imgScene {
     width: 100%;
 }
+
+
+@media (max-width: 1500px) { 
+    :root {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1400px) { 
+    :root {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1116px) { 
+    :root {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 1116px) { 
+    .preface-description {
+        width: 50%;
+    }
+
+    .preface-description:hover{
+        width: 55%;
+    }
+}
+
+@media (max-width: 650px) {
+    :root {
+        font-size: 6px;
+    }
+    
+    .preface-description {
+    position: absolute;
+    top: 50%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    height: 70vh;
+    }
+
+    .pupicon {
+        width: 50px;
+    }
+}
+
+
+
+
+
