@@ -12,8 +12,6 @@ function displayFollowCamera() {
     } else {
         display.style.top = event.clientY + 50 + "px";
     }
- 
-    console.log(event.clientY)
 
     if (event.clientX > 900) {
         display.style.left = event.clientX - 300 + "px";
