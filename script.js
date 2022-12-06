@@ -30,16 +30,25 @@ function showMap() {
     const map = document.getElementById('map-container');
     const preface = document.getElementById('preface-container')
     const showbtn = document.getElementById('show-map');
+    const bgimg = document.getElementById('bgimg')
+    const body = document.getElementById('body')
+
     if (map.style.display == "flex"){
         map.style.display = "none"
+        bgimg.style.display = "block"
+        body.style.overflowY = "hidden"
+
     } else {
         map.style.display = "flex"
+        bgimg.style.display = "none"
+        body.style.overflowY = "scroll"
     }
 
     if (preface.style.display == "none"){
         preface.style.display = "grid"
     } else {
         preface.style.display = "none"
+
     }
 }
 
